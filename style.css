@@ -1,0 +1,27 @@
+/* CSS Style */
+
+body {
+    background-color: #280142;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Add your styles here */
