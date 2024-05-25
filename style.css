@@ -44,8 +44,11 @@ nav {
 }
 
 .nav-flex {
-    flex: 0 0 5; /* This will make the nav bar not grow or shrink, and take up only the space it needs */
-
+        position: absolute; /* This takes the nav bar out of the normal flow of the document */
+        top: 0; /* This positions the nav bar at the top of the body */
+        left: 0; /* This positions the nav bar at the left of the body */
+        width: 200px; /* Adjust this to change the width of the nav bar */
+        height: 100vh; /* This makes the nav bar take up the full height of the viewport */
 }
 
 nav ul {
@@ -68,5 +71,5 @@ p {
 
 .p-flex {
     flex: 1 0 10; /* This will make the paragraph content grow to take up the remaining space */
-    overflow: auto; /* This will add a scrollbar if the content is too long */
+    margin-left: 200px;
 }
