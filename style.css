@@ -8,6 +8,7 @@ body {
     
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex-wrap: wrap;
     height: 100vh;
     margin: 0;
@@ -18,6 +19,11 @@ h1 {
     color: #fafafa;
     font-size: 24px;
     font-weight: bold;
+}
+
+.h1-flex {
+    margin-left: 300px;
+
 }
 
 p {
@@ -39,6 +45,7 @@ a {
 
 nav {
     background-color: #1b0f42 ;
+    border: 2px solid #ac4cac;
 }
 
 .nav-flex {
@@ -70,4 +77,5 @@ p {
 .p-flex {
     flex: 1 0 10; /* This will make the paragraph content grow to take up the remaining space */
     margin-left: 200px;
+    margin-right: 40px;
 }
