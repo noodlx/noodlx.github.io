@@ -5,6 +5,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 0;
+
 }
 
 h1 {
@@ -30,13 +37,36 @@ a {
     color: #bb89f5; 
 }
 
+nav {
+    background-color: #1b0f42 ;
+    border: 2px solid #ac4cac;
+    padding: 8% ;
+}
+
+.nav-flex {
+    flex: 0 0 5; /* This will make the nav bar not grow or shrink, and take up only the space it needs */
+
+}
+
 nav ul {
     list-style-type: none;
     
 }
 
-nav {
-    background-color: #1b0f42 ;
+p {
+    padding: 2%;
+    margin: 2%;
+    background-color: #1b0f42;
     border: 2px solid #ac4cac;
-    padding: 8% ;
+    border-radius: 10px;
+    margin: 2%;
+    padding: 2%;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.p-flex {
+    flex: 1 0 10; /* This will make the paragraph content grow to take up the remaining space */
+    overflow: auto; /* This will add a scrollbar if the content is too long */
 }
