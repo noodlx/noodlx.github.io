@@ -29,3 +29,7 @@ a {
 .active a {
     color: #bb89f5; 
 }
+
+nav ul {
+    list-style-type: none;
+}
