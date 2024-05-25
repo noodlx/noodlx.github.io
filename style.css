@@ -33,3 +33,9 @@ a {
 nav ul {
     list-style-type: none;
 }
+
+nav {
+    background-color: #1b0f42 ;
+    border: 2px solid #ac4cac;
+    padding: 8% ;
+}
