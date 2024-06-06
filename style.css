@@ -92,6 +92,7 @@ p {
 }
 
 .folder {
+    list-style-type: none;
     color: beige;
     font-size: large;
 }
