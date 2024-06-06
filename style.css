@@ -79,3 +79,19 @@ p {
     margin-left: 240px;
     margin-right: 40px;
 }
+
+.custom-bullet{
+    color: aqua;
+    font-size: medium;
+
+}
+.custom-bullet::before {
+    content: "└ ";
+    color:aqua;
+    font-size: medium;
+}
+
+.folder {
+    color: beige;
+    font-size: large;
+}
