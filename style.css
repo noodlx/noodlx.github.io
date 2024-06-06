@@ -81,6 +81,7 @@ p {
 }
 
 .custom-bullet{
+    list-style-type: none;
     color: aqua;
     font-size: medium;
 
