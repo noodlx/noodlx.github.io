@@ -68,7 +68,7 @@ nav-flex {
 }
 
 .nav-flex ul li {
-    margin-right: 5%; /* Adjust this to add more or less spacing between the menu items */
+    margin-right: 20px; /* Adjust this to add more or less spacing between the menu items */
 }
 
 .nav-flex ul li:last-child {
