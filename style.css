@@ -60,7 +60,7 @@ nav-flex {
 .nav-flex ul {
     list-style-type: none;
     padding: 0;
-    display: flex; /* This will layout the <li> elements in a row */
+    display: inline-block; /* This will layout the <li> elements in a row */
     justify-content: center; /* This centers the items in the navigation bar */
     align-items: center; /* This vertically centers the items in their container */
 }
