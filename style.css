@@ -41,6 +41,7 @@ a {
 
 .active a {
     color: #bb89f5; 
+    background-color: #282042;
 }
 
 nav {
@@ -68,6 +69,8 @@ nav-flex {
     display: inline;
     margin-right: 20px; /* Adjust this to add more or less spacing between the menu items */
 }
+
+
 
 p {
     padding: 2%;
