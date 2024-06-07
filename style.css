@@ -38,8 +38,7 @@ a {
 }
 
 .active a {
-    color: #bb89f5; 
-    background-color: #282042;
+    background-color: #4b416b;
 }
 
 nav {
@@ -81,7 +80,7 @@ nav-flex {
 }
 
 .nav-flex ul li a:hover {
-    background-color: #ac4cac; /* Adds a background color on hover for visual feedback */
+    background-color: #4b416b; /* Adds a background color on hover for visual feedback */
     color: #ffffff; /* Ensures the text color remains visible on hover */
 }
 
