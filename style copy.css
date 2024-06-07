@@ -48,25 +48,17 @@ nav {
     border: 2px solid #ac4cac;
 }
 
-nav-flex {
-    display: flex;
-    justify-content: flex-start;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f8f8f8; /* Change this to the color you want for the navigation bar */
+.nav-flex {
+        position: absolute; /* This takes the nav bar out of the normal flow of the document */
+        top: 0; /* This positions the nav bar at the top of the body */
+        left: 0; /* This positions the nav bar at the left of the body */
+        width: 200px; /* Adjust this to change the width of the nav bar */
+        height: 100vh; /* This makes the nav bar take up the full height of the viewport */
 }
 
-.nav-flex ul {
+nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-flex ul li {
-    display: inline;
-    margin-right: 20px; /* Adjust this to add more or less spacing between the menu items */
+    
 }
 
 p {
