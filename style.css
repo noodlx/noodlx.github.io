@@ -61,13 +61,18 @@ nav-flex {
 
 .nav-flex ul {
     list-style-type: none;
-    margin-left: 30%;
     padding: 0;
+    display: flex; /* This will layout the <li> elements in a row */
+    justify-content: center; /* This centers the items in the navigation bar */
+    align-items: center; /* This vertically centers the items in their container */
 }
 
 .nav-flex ul li {
-    display: inline;
     margin-right: 5%; /* Adjust this to add more or less spacing between the menu items */
+}
+
+.nav-flex ul li:last-child {
+    margin-right: 0; /* Removes margin from the last item */
 }
 
 .nav-flex ul li a {
