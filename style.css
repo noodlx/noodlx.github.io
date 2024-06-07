@@ -8,7 +8,7 @@ body {
     
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     height: 100vh;
     margin: 0;
@@ -26,12 +26,6 @@ h1 {
 
 }
 
-p {
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
 a {
     color: #ac4cac;
     text-decoration: none;
@@ -42,18 +36,23 @@ a {
 }
 
 nav {
-    background-color: #1b0f42 ;
+    background-color: #1b0f42;
     border: 2px solid #ac4cac;
+    position: fixed; /* Keeps the nav bar at the top without affecting the flow of other elements */
+    top: 0;
+    width: 100%; /* Ensures nav bar spans the entire width */
+    z-index: 1000; /* Ensures nav bar stays on top of other content */
 }
 
-nav-flex {
+.nav-flex {
     display: flex;
     justify-content: flex-start;
-    position: fixed;
+    position: fixed; /* Ensures nav bar is fixed at the top */
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f8f8f8; /* Change this to the color you want for the navigation bar */
+    z-index: 1000; /* Ensures nav bar stays on top of other content */
+    background-color: #f8f8f8; /* Adjust background color as needed */
 }
 
 .nav-flex ul {
@@ -99,7 +98,8 @@ p {
 }
 
 .p-flex {
-    flex: 1 0 10; /* This will make the paragraph content grow to take up the remaining space */
+    flex: 1 0 auto; /* Adjust flex settings if needed */
+    margin-top: 0; /* Remove top margin to move content up */
     margin-left: 10%;
     margin-right: 10%;
 }
