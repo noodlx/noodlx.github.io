@@ -70,6 +70,17 @@ nav-flex {
     margin-right: 5%; /* Adjust this to add more or less spacing between the menu items */
 }
 
+.nav-flex ul li a {
+    color: #ffffff; /* Change the color to improve visibility */
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px; /* Adds padding for better spacing */
+    display: block; /* Makes the entire area clickable */
+}
+
+.nav-flex ul li a:hover {
+    background-color: #ac4cac; /* Adds a background color on hover for visual feedback */
+    color: #ffffff; /* Ensures the text color remains visible on hover */
+}
 
 
 p {
