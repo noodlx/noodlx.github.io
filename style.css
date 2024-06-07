@@ -87,8 +87,8 @@ p {
 
 .p-flex {
     flex: 1 0 10; /* This will make the paragraph content grow to take up the remaining space */
-    margin-left: 240px;
-    margin-right: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .custom-bullet{
