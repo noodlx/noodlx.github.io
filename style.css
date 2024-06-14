@@ -132,7 +132,35 @@ p {
     align-items: center;
     height: 40vh;
     width: 60%;
+    margin: auto; /* Center the box */
+    padding: 20px; /* Padding around the inner content */
     color: #d3d3d3;
-    background-color: #1c123f
+    background-color: #1c123f;
+}
 
+.first-line, .landing-content, .last-line {
+    width: 100%; /* Make each container span the full width of the parent */
+    padding: 10px; /* Padding inside each container */
+}
+
+.first-line {
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 36px;
+}
+
+.landing-content {
+    flex-grow: 3; /* Allow this container to take up 3/4ths of the space */
+    font-size: 20px;
+}
+
+.last-line {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-around; /* Evenly space the links */
+    padding: 10px 0; /* Padding at the top and bottom */
+}
+
+.last-line a {
+    color: #ac4cac; /* Link color */
+    text-decoration: none; /* Remove underline */
 }
