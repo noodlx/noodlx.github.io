@@ -164,6 +164,7 @@ p {
 
 .last-line {
     display: flex;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     justify-content: space-around; /* Evenly space the links */
     padding: 10px 0; /* Padding at the top and bottom */
