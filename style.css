@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    color: #fafafa;
+    color: #d3d3d3;
     font-size: 24px;
     font-weight: bold;
 }
@@ -75,7 +75,7 @@ nav {
 }
 
 .nav-flex ul li a {
-    color: #ffffff; /* Change the color to improve visibility */
+    color: #d3d3d3; /* Change the color to improve visibility */
     text-decoration: none; /* Removes underline from links */
     padding: 10px; /* Adds padding for better spacing */
     display: inline-block; /* Makes the entire area clickable */
@@ -83,7 +83,7 @@ nav {
 
 .nav-flex ul li a:hover {
     background-color: #4b416b; /* Adds a background color on hover for visual feedback */
-    color: #ffffff; /* Ensures the text color remains visible on hover */
+    color: #d3d3d3; /* Ensures the text color remains visible on hover */
 }
 
 
@@ -95,7 +95,7 @@ p {
     border-radius: 10px;
     margin: 2%;
     padding: 2%;
-    color: #ffffff;
+    color: #d3d3d3;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -123,4 +123,16 @@ p {
     list-style-type: none;
     color: beige;
     font-size: large;
+}
+
+.landing-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 60%;
+    color: #d3d3d3;
+    background-color: #1c123f
+
 }
