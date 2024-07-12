@@ -23,7 +23,7 @@ body {
     flex-direction: column; /* Ensures content is aligned vertically */
     justify-content: flex-start;
     align-items: center; /* Centers the content horizontally */
-    height: auto; /* Adjusts the height based on the content */
+    height: 100vh; /* Adjusts the height based on the content */
     width: 100%; /* Ensures the body takes full width */
 }
 
@@ -194,7 +194,7 @@ p {
     border: 2px solid #ac4cac;
     border-radius: 8px;
     padding: 20px;
-    margin: 20px 0;
+    margin: 100px 0;
     color: #d3d3d3;
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
 }
