@@ -14,6 +14,18 @@ body {
     margin: 0;
 
 }
+.project-body {
+    background-color: #0b061b;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Ensures content is aligned vertically */
+    justify-content: flex-start;
+    align-items: center; /* Centers the content horizontally */
+    height: auto; /* Adjusts the height based on the content */
+    width: 100%; /* Ensures the body takes full width */
+}
 
 h1 {
     color: #d3d3d3;
@@ -176,12 +188,15 @@ p {
 }
 
 .project-container {
-    background-color: #2c234d; /* Dark background for each project */
-    border: 2px solid #ac4cac; /* Purple border to match the theme */
-    border-radius: 8px; /* Rounded corners */
-    padding: 20px; /* Space inside the container */
-    margin: 20px 0; /* Space between each project container */
-    color: #d3d3d3; /* Light text color for contrast */
+    width: 80%; /* Adjusts the width to prevent extending off the page */
+    max-width: 1200px; /* Ensures container does not become too wide on large screens */
+    background-color: #2c234d;
+    border: 2px solid #ac4cac;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    color: #d3d3d3;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
 }
 
 .image-container {
