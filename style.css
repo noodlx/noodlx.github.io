@@ -102,7 +102,7 @@ p {
 
 .p-flex {
     flex: 1 0 auto; /* Adjust flex settings if needed */
-    margin-top: 70px; /* Remove top margin to move content up */
+    margin-top: 160px; /* Remove top margin to move content up */
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -173,4 +173,25 @@ p {
 .last-line a {
     color: #ac4cac; /* Link color */
     text-decoration: none; /* Remove underline */
+}
+
+.project-container {
+    background-color: #2c234d; /* Dark background for each project */
+    border: 2px solid #ac4cac; /* Purple border to match the theme */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the container */
+    margin: 20px 0; /* Space between each project container */
+    color: #d3d3d3; /* Light text color for contrast */
+}
+
+.image-container {
+    display: flex; /* Layout images in a row */
+    justify-content: space-around; /* Evenly space images */
+    margin-top: 20px; /* Space above the images */
+}
+
+.image-container img {
+    width: 45%; /* Each image takes up nearly half the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
 }
