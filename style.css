@@ -212,15 +212,12 @@ p {
 }
 
 .site-footer {
-    background-color: #1b0f42;
     color: #d3d3d3;
     text-align: center;
     padding: 20px 0;
     border-top: 2px solid #ac4cac;
     position: relative;
     bottom: 0;
-    width: 100%;
-    
 }
 
 .footer-contact, .footer-bottom {
