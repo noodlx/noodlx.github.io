@@ -10,6 +10,7 @@ body {
     justify-content: flex-start;
     flex-wrap: wrap;
     height: 100vh;
+    min-height: 100vh;
 
 }
 .project-body {
@@ -208,4 +209,31 @@ p {
     width: 45%; 
     height: auto;
     border-radius: 5px;
+}
+
+.site-footer {
+    background-color: #1b0f42;
+    color: #d3d3d3;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #ac4cac;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-contact, .footer-bottom {
+    margin: 10px 0;
+}
+
+.footer-contact h3 {
+    margin-bottom: 10px;
+}
+
+.footer-contact p, .footer-bottom p {
+    font-size: 16px;
+}
+
+main {
+    flex: 1;
 }
