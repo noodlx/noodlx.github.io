@@ -5,13 +5,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
     height: 100vh;
-    margin: 0;
 
 }
 .project-body {
@@ -20,11 +18,11 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Ensures content is aligned vertically */
+    flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    align-items: center; /* Centers the content horizontally */
-    height: 100vh; /* Adjusts the height based on the content */
+    align-items: center;
+    height: 100vh;
 }
 
 h1 {
@@ -50,52 +48,52 @@ a {
 nav {
     background-color: #1b0f42;
     border: 2px solid #ac4cac;
-    position: fixed; /* Keeps the nav bar at the top without affecting the flow of other elements */
+    position: fixed;
     top: 0;
     height: 70px;
-    width: 100%; /* Ensures nav bar spans the entire width */
-    z-index: 1000; /* Ensures nav bar stays on top of other content */
+    width: 100%;
+    z-index: 1000;
 }
 
 .nav-flex {
-    display: flex; /* Ensures the nav items are laid out in a row */
-    justify-content: space-around; /* Distributes spacing evenly around items */
-    align-items: center; /* Vertically centers the items */
-    position: fixed; /* Keeps the nav bar at the top */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Ensures nav bar spans the entire width */
-    z-index: 1000; /* Keeps nav bar on top */
+    width: 100%;
+    z-index: 1000;
 }
 
 .nav-flex ul {
-    display: flex; /* Changes the display to flex to layout the <li> elements in a row */
-    list-style-type: none; /* Removes bullet points */
+    display: flex;
+    list-style-type: none;
     padding: 0;
-    margin: 0; /* Removes default margin */
-    width: 100%; /* Ensures the ul spans the entire width of the nav */
-    justify-content: center; /* Centers the items within the nav */
+    margin: 0; 
+    width: 100%;
+    justify-content: center;
 }
 
 .nav-flex ul li {
     display: inline-block;
-    margin-right: 20px; /* Adjust this to add more or less spacing between the menu items */
+    margin-right: 20px;
 }
 
 .nav-flex ul li:last-child {
-    margin-right: 0; /* Removes margin from the last item */
+    margin-right: 0;
 }
 
 .nav-flex ul li a {
-    color: #d3d3d3; /* Change the color to improve visibility */
-    text-decoration: none; /* Removes underline from links */
-    padding: 10px; /* Adds padding for better spacing */
-    display: inline-block; /* Makes the entire area clickable */
+    color: #d3d3d3;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
 }
 
 .nav-flex ul li a:hover {
-    background-color: #4b416b; /* Adds a background color on hover for visual feedback */
-    color: #d3d3d3; /* Ensures the text color remains visible on hover */
+    background-color: #4b416b;
+    color: #d3d3d3;
 }
 
 
@@ -113,8 +111,8 @@ p {
 }
 
 .p-flex {
-    flex: 1 0 auto; /* Adjust flex settings if needed */
-    margin-top: 160px; /* Remove top margin to move content up */
+    flex: 1 0 auto;
+    margin-top: 160px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -144,15 +142,15 @@ p {
     align-items: center;
     height: 40vh;
     width: 60%;
-    margin: auto; /* Center the box */
-    padding: 20px; /* Padding around the inner content */
+    margin: auto;
+    padding: 20px;
     color: #d3d3d3;
     background-color: #1c123f;
 }
 
 .first-line, .landing-content, .last-line {
-    width: 100%; /* Make each container span the full width of the parent */
-    padding: 10px; /* Padding inside each container */
+    width: 100%;
+    padding: 10px;
 }
 
 .first-line {
@@ -162,7 +160,7 @@ p {
 }
 
 .landing-content {
-    flex-grow: 3; /* Allow this container to take up 3/4ths of the space */
+    flex-grow: 3;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
@@ -178,35 +176,35 @@ p {
     display: flex;
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
-    justify-content: space-around; /* Evenly space the links */
-    padding: 10px 0; /* Padding at the top and bottom */
+    justify-content: space-around;
+    padding: 10px 0;
 }
 
 .last-line a {
-    color: #ac4cac; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: #ac4cac;
+    text-decoration: none;
 }
 
 .project-container {
-    width: 80%; /* Adjusts the width to prevent extending off the page */
-    max-width: 1200px; /* Ensures container does not become too wide on large screens */
+    width: 80%;
+    max-width: 1200px;
     background-color: #2c234d;
     border: 2px solid #ac4cac;
     border-radius: 8px;
     padding: 20px;
     margin: 100px 0;
     color: #d3d3d3;
-    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    box-sizing: border-box;
 }
 
 .image-container {
-    display: flex; /* Layout images in a row */
-    justify-content: space-around; /* Evenly space images */
-    margin-top: 20px; /* Space above the images */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
 .image-container img {
-    width: 45%; /* Each image takes up nearly half the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Rounded corners for images */
+    width: 45%; 
+    height: auto;
+    border-radius: 5px;
 }
