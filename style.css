@@ -240,7 +240,7 @@ p {
     float: left; /* Change to left to place the image in front of the content */
     margin-right: 20px; /* Add margin to the right to create space between the image and the text */
     margin-bottom: 20px;
-    border-radius: 50%; /* Optional: to make the image circular */
+    border-radius: 25%; /* Optional: to make the image circular */
 }
 
 
