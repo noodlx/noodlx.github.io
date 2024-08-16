@@ -234,6 +234,37 @@ p {
     font-size: 16px;
 }
 
+.profile-pic {
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Optional: to make the image circular */
+}
+
+.content-box {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+h5 {
+    color: #ac4cac; /* Matches the color scheme */
+    font-size: 20px; /* Slightly larger than the paragraph text */
+    font-weight: bold; /* Makes the headings stand out */
+    margin-top: 20px; /* Adds space above the headings */
+    margin-bottom: 10px; /* Adds space below the headings */
+    text-align: left; /* Aligns the text to the left */
+    border-bottom: 2px solid #ac4cac; /* Adds a bottom border for emphasis */
+    padding-bottom: 5px; /* Adds some padding below the text */
+}
+
+.abt-me-content {
+    text-align: justify;
+}
+
 main {
     flex: 1;
 }
