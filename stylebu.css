@@ -1,7 +1,7 @@
 /* CSS Style */
 
 body {
-    background-color: #121212;
+    background-color: #0b061b;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
 
 }
 .project-body {
-    background-color: #121212;
+    background-color: #0b061b;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ body {
     align-items: center;
     height: 100vh;
     margin-bottom: 300px;
-    margin-top: 80px;
+    margin-top: 200px;
 }
 
 h1 {
@@ -41,17 +41,17 @@ h1 {
 }
 
 a {
-    color: #82aaff;
+    color: #ac4cac;
     text-decoration: none;
 }
 
 .active a {
-    background-color: #3d5afe;
+    background-color: #4b416b;
 }
 
 nav {
-    background-color: #1e1e1e;
-    border: 2px solid #82aaff;
+    background-color: #1b0f42;
+    border: 2px solid #ac4cac;
     position: fixed;
     top: 0;
     height: 70px;
@@ -96,7 +96,7 @@ nav {
 }
 
 .nav-flex ul li a:hover {
-    background-color: #333333;
+    background-color: #4b416b;
     color: #d3d3d3;
 }
 
@@ -104,8 +104,8 @@ nav {
 p {
     padding: 2%;
     margin: 2%;
-    background-color: #1e1e1e;
-    border: 2px solid #82aaff;
+    background-color: #1b0f42;
+    border: 2px solid #ac4cac;
     border-radius: 10px;
     margin: 2%;
     padding: 2%;
@@ -123,13 +123,13 @@ p {
 
 .custom-bullet{
     list-style-type: none;
-    color: #82aaff;
+    color: aqua;
     font-size: medium;
 
 }
 .custom-bullet::before {
     content: "└ ";
-    color:#82aaff;
+    color:aqua;
     font-size: medium;
 }
 
@@ -149,7 +149,7 @@ p {
     margin: auto;
     padding: 20px;
     color: #d3d3d3;
-    background-color: #1e1e1e;
+    background-color: #1c123f;
 }
 
 .first-line, .landing-content, .last-line {
@@ -185,15 +185,15 @@ p {
 }
 
 .last-line a {
-    color: #82aaff;
+    color: #ac4cac;
     text-decoration: none;
 }
 
 .project-container {
     width: 80%;
     max-width: 1200px;
-    background-color: #1e1e1e;
-    border: 2px solid #82aaff;
+    background-color: #2c234d;
+    border: 2px solid #ac4cac;
     border-radius: 8px;
     padding: 20px;
     margin: 30px 0;
@@ -217,7 +217,7 @@ p {
     color: #d3d3d3;
     text-align: center;
     padding: 20px 0;
-    border-top: 2px solid #82aaff;
+    border-top: 2px solid #ac4cac;
     position: relative;
     bottom: 0;
 }
@@ -252,18 +252,17 @@ p {
 }
 
 h5 {
-    color: #82aaff; /* Matches the color scheme */
+    color: #ac4cac; /* Matches the color scheme */
     font-size: 20px; /* Slightly larger than the paragraph text */
     font-weight: bold; /* Makes the headings stand out */
     margin-top: 20px; /* Adds space above the headings */
     margin-bottom: 10px; /* Adds space below the headings */
     text-align: center; /* Aligns the text to the left */
-    border-bottom: 2px solid #82aaff; /* Adds a bottom border for emphasis */
+    border-bottom: 2px solid #ac4cac; /* Adds a bottom border for emphasis */
     padding-bottom: 5px; /* Adds some padding below the text */
 }
 
 .abt-me-content-first {
-    display: flex;
     text-align: justify;
     padding-left: 35%; /* Add padding to the left to ensure the text does not overlap with the image */
 }
