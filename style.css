@@ -237,7 +237,6 @@ p {
 .profile-pic {
     width: 25%;
     height: auto;
-    float: left; 
     margin-right: 20px; 
     margin-bottom: 20px;
     border-radius: 25%; 
@@ -264,7 +263,7 @@ h5 {
 
 .abt-me-content-first {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     text-align: justify;
     padding-left: 35%; 
     height: auto;
